@@ -37,9 +37,9 @@ namespace HomeWork2
             ReadKey();
             WriteLine($"Баллы по физике: {physicsScore}");
             ReadKey();
-            WriteLine($"Общее количество бвллов: {summ}");
+            WriteLine($"Общее количество баллов: {summ}");
             ReadKey();
-            WriteLine($"ФИО: {fullName}");
+            WriteLine($"Среднее арифметическое: {arithmeticMean}");
             ReadKey();
         }
     }
