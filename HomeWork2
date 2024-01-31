@@ -1,0 +1,46 @@
+using System;
+using static System.Console;
+
+namespace HomeWork2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string 
+                fullName = "Тургенев Иван Сергеевич",
+                email = "i.turgenev_1818@mail.com";
+            byte age = 64;
+            float
+                programmingScore = 71f,
+                mathScore = 62f,
+                physicsScore = 61f,
+                summ = programmingScore + mathScore + physicsScore,
+                arithmeticMean = (programmingScore + mathScore + physicsScore) / 3;
+            //WriteLine($"ФИО: {fullName} " +
+            //    $"\nВозраст: {age} " +
+            //    $"\nEmail: {email} " +
+            //    $"\nБаллы по программированию: {programmingScore} " +
+            //    $"\nБаллы по математике: {mathScore} " +
+            //    $"\nБаллы по физике: {physicsScore}" +
+            //    $"\nОбщее количество бвллов: {summ}" +
+            //    $"\nСреднее арифметическое: {arithmeticMean}");
+            WriteLine($"ФИО: {fullName}");
+            ReadKey();
+            WriteLine($"Возраст: {age}");
+            ReadKey();
+            WriteLine($"Email: {email}");
+            ReadKey();
+            WriteLine($"Баллы по программированию: {programmingScore}");
+            ReadKey();
+            WriteLine($"Баллы по математике: {mathScore}");
+            ReadKey();
+            WriteLine($"Баллы по физике: {physicsScore}");
+            ReadKey();
+            WriteLine($"Общее количество бвллов: {summ}");
+            ReadKey();
+            WriteLine($"ФИО: {fullName}");
+            ReadKey();
+        }
+    }
+}
